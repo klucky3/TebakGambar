@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.koko.ttebakgambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InjakJasActivity"
+            android:label="@string/title_activity_injak_jas" >
+        </activity>
+        <activity
+            android:name=".Jasa_MurahActivity"
+            android:label="@string/title_activity_jasa__murah" >
+        </activity>
+        <activity
+            android:name=".Keramik_LantaiActivity"
+            android:label="@string/title_activity_keramik__lantai" >
+        </activity>
+        <activity
+            android:name=".Khusus_DewasaActivity"
+            android:label="@string/title_activity_khusus__dewasa" >
+        </activity>
+        <activity
+            android:name=".Ko_otomatisActivity"
+            android:label="@string/title_activity_ko_otomatis" >
+        </activity>
+        <activity
+            android:name=".KomposisiActivity"
+            android:label="@string/title_activity_komposisi" >
+        </activity>
+        <activity
+            android:name=".Kopi_AlamiActivity"
+            android:label="@string/title_activity_kopi__alami" >
+        </activity>
+        <activity
+            android:name=".Kurang_AjarActivity"
+            android:label="@string/title_activity_kurang__ajar" >
+        </activity>
+        <activity
+            android:name=".Muka_TembokActivity"
+            android:label="@string/title_activity_muka__tembok" >
+        </activity>
+        <activity
+            android:name=".Menang_Activity"
+            android:label="@string/title_activity_menang_" >
+        </activity>
+    </application>
+
+</manifest>
